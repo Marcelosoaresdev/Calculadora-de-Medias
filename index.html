@@ -18,10 +18,16 @@
         <img src="./images/logo.png" alt="Capelo e diploma" />
         <h1>Calculadora de médias</h1>
       </header>
-      <form>
-        <input type="text" required placeholder="Nome da atividade" />
+      <form id="form-atividade">
+        <input
+          type="text"
+          id="nome-atividade"
+          required
+          placeholder="Nome da atividade"
+        />
         <input
           type="number"
+          id="nota-atividade"
           required
           placeholder="Nota de atividade"
           min="0"
@@ -38,20 +44,16 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Atividade 1</td><!--  Define os dados das células da tabela -->
-            <td>7</td>
-            <td><img src="./images/aprovado.png" alt="Emoji festejando" /></td>
-          </tr>
         </tbody>
         <tfoot>
           <tr>
             <td>Média final</td>
             <td>7</td>
-            <td> <span class="resultado reprovado">Aprovado</span> </td>
+            <td><span class="resultado reprovado">Aprovado</span></td>
           </tr>
         </tfoot>
       </table>
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>
