@@ -24,7 +24,7 @@ function validaNum() {
         }
     } while (true);  // Loop contínuo até que um número válido seja inserido
 
-    alert(`Você definiou a nota mínima de: ${numero}`);
+    alert(`Você definiu a nota mínima de: ${numero}`);
 }
 
 form.addEventListener ('submit', function (e){
