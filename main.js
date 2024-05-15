@@ -66,7 +66,7 @@ function atualizaTabela () {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal()
 
-    document.getElementById('media-final-valor').innerHTML = mediaFinal
+    document.getElementById('media-final-valor').innerHTML = mediaFinal.toFixed(2) // toFixed(2) limita até 2 casas decimais
     document.getElementById('media-final-resultado').innerHTML = mediaFinal >= numero ? spanAprovado : spanReprovado
 
 }
