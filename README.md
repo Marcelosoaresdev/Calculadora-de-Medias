@@ -1,4 +1,5 @@
 # Projeto de calculadora de médias
+- Link do deploy do projeto: https://marcelo-projeto-calculadora-de-medias-brown.vercel.app/
 ## **Quais tecnologias foram utilizadas?**
 - HTML5, CSS3 e JavaScript
 ## **Alterações feita por mim:** 
